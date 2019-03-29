@@ -1,6 +1,7 @@
 var express = require('express');
 var multer = require("multer");
 const ejs = require('ejs');
+const fs = require('fs');
 var storage = multer.diskStorage({
     destination: function (req, file, cb) {
         cb(null, 'uploads/');
@@ -19,6 +20,10 @@ var upload = multer({ storage: storage });
 var gm = require("gm").subClass({
     imageMagick: true
 });
+
+function getPics(){
+    return fs.readdirSync("./uploads/");
+}
 
 var app = express();
 app.post('/api/file', upload.single('file'), function (req, res) {
@@ -63,6 +68,6 @@ app.get('/', function (req, res) {
     res.render("\index.ejs");
 });
 
-app.get('*', function(req, res){
-   res.render("\image_gallery.ejs");
-});
+app.get("/gallery/image", (req,res) => res.render("\image_gallery.ejs", {data: getPics()}));
+
+app.get("*", (req,res) => res.render("\image_gallery.ejs", {data: getPics()}));
