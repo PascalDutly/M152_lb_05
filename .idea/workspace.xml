@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4e5f794-9c0e-4026-b465-86077b7ebcbe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/mergedVideo/nein.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mergedVideo/new_tee.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mergedVideo/test.mp4" afterPath="" />
-    </list>
+    <list default="true" id="a4e5f794-9c0e-4026-b465-86077b7ebcbe" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -227,12 +222,12 @@
       <workItem from="1554110990248" duration="2056000" />
       <workItem from="1554132247223" duration="8991000" />
       <workItem from="1554144802383" duration="91000" />
-      <workItem from="1554186635554" duration="477000" />
+      <workItem from="1554186635554" duration="644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47609000" />
+    <option name="totallyTimeSpent" value="47776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="974" height="950" extended-state="0" />
