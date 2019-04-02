@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e5f794-9c0e-4026-b465-86077b7ebcbe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/pause_button.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/player.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/assets/1_icon.png" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/js/player.js" afterPath="$PROJECT_DIR$/js/player.js" />
-      <change beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change beforePath="$PROJECT_DIR$/uploads/eample.PNG" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/uploads/medium_color_scheme.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploadVideos/2019-04-02 18-26-35.mp4" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/uploadVideos/2019-04-02 18-26-54.mp4" afterPath="" />
       <change beforePath="$PROJECT_DIR$/views/play_video.ejs" afterPath="$PROJECT_DIR$/views/play_video.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -46,8 +43,8 @@
       <file leaf-file-name="play_video.ejs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/play_video.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="250">
+              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -142,7 +139,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-10" />
-    <option name="width" value="1960" />
+    <option name="width" value="1940" />
     <option name="height" value="1965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -256,25 +253,24 @@
       <workItem from="1554132247223" duration="8991000" />
       <workItem from="1554144802383" duration="91000" />
       <workItem from="1554186635554" duration="11314000" />
-      <workItem from="1554219678620" duration="3182000" />
+      <workItem from="1554219678620" duration="4533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61628000" />
+    <option name="totallyTimeSpent" value="62979000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1960" height="1965" extended-state="0" />
-    <editor active="true" />
+    <frame x="-10" y="0" width="1940" height="1965" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17656332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17843866" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30314466" sideWeight="0.18365288" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14269209" sideWeight="0.8163471" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14269209" sideWeight="0.8163471" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -621,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/play_video.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state relative-caret-position="250">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding />
         </state>
       </provider>
