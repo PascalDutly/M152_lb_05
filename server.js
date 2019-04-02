@@ -110,11 +110,6 @@ app.get('/video_manager', function (req,res){
 
 app.get("/play_video", (req,res) => res.render("\play_video.ejs", {data: req.query.videoName}));
 
-/*app.get('/play_video', function (req,res){
-    res.send("videoName is set to " + req.query.videoName);
-    res.render("play_video.ejs");
-});*/
-
 app.get("/gallery/image", (req,res) => res.render("\image_gallery.ejs", {data: getPics()}));
 
 app.get("*", (req,res) => res.render("\image_gallery.ejs", {data: getPics()}));
