@@ -93,6 +93,9 @@ app.post('/api/videos', uploadVideos.array('video'), function(req,res){
 });
 
 app.use('/files', express.static('uploads'));
+app.use('/js', express.static('js'));
+app.use('/assets', express.static('assets'));
+app.use('/css', express.static('css'));
 
 app.listen(process.env.PORT || 4000, function () {
     console.log('Your node js server is running on ' + process.env.PORT);

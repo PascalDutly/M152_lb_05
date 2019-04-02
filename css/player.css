@@ -1,0 +1,21 @@
+html{
+    background-color: lightgrey;
+}
+
+#video_player{
+    border-style: solid;
+    border-width: 2px;
+}
+
+input{
+    width: 32px;
+    height: 32px;
+}
+
+.cng_vol{
+    width: 64px;
+}
+
+#progress{
+    width: 720px;
+}
