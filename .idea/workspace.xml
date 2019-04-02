@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4e5f794-9c0e-4026-b465-86077b7ebcbe" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/assets/1_icon.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/uploadVideos/2019-04-02 18-26-35.mp4" afterPath="" />
       <change beforePath="$PROJECT_DIR$/uploadVideos/2019-04-02 18-26-54.mp4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/views/play_video.ejs" afterPath="$PROJECT_DIR$/views/play_video.ejs" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -253,12 +250,12 @@
       <workItem from="1554132247223" duration="8991000" />
       <workItem from="1554144802383" duration="91000" />
       <workItem from="1554186635554" duration="11314000" />
-      <workItem from="1554219678620" duration="4533000" />
+      <workItem from="1554219678620" duration="4595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62979000" />
+    <option name="totallyTimeSpent" value="63041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="1940" height="1965" extended-state="0" />
