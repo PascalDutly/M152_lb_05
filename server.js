@@ -135,6 +135,10 @@ app.get('/audio-manager', function (req, res) {
     res.render("\audioManager.ejs");
 });
 
+app.get('/video_manager', function (req,res){
+    res.render("videoManager.ejs");
+});
+
 app.get("/audio-player", (req,res) => res.render("\play_audio.ejs", {data: req.query.audioName}));
 
 app.get("/play_video", (req,res) => res.render("\play_video.ejs", {data: req.query.videoName}));
