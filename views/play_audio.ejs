@@ -5,12 +5,10 @@
 </head>
 <body>
 <div id="wrapper">
-    <div id="player_wrapper">
-        <audio controls src="../uploadAudios/<%= data %>">
-            Ihr Browser Unterstützt dieses Element nicht
-            <track src="../uploadAudios/">
-        </audio>
-    </div>
+    <video controls src="../uploadAudios/<%= data %>">
+        Ihr Browser Unterstützt dieses Element nicht
+        <track src="../uploadAudios/<%= data.split('.')[0] %>.vtt" kind="subtitles" srclang="de" label="Deutsch">
+    </video>
 </div>
 </body>
 </html>
