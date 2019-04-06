@@ -27,5 +27,6 @@
     "url": "https://github.com/PascalDutlyCsBe/M152_lb_02/issues"
   },
   "homepage": "https://github.com/PascalDutlyCsBe/M152_lb_02#readme",
-  "description": ""
+  "description": "",
+  "start": "node server.js"
 }
