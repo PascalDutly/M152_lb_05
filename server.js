@@ -61,7 +61,7 @@ wss.on('connection', (ws) => {
     }, 10000);
 });
 //start our server
-server.listen(process.env.PORT || 8999, () => {
+server.listen(8999, () => {
     console.log(`Server started on port ${server.address().port} :)`);
 });
 var storage = multer.diskStorage({
@@ -170,7 +170,7 @@ app.use('/js', express.static('js'));
 app.use('/assets', express.static('assets'));
 app.use('/css', express.static('css'));
 app.use('/uploadAudios', express.static('uploadAudios'));
-app.listen(4000, function () {
+app.listen(process.env.PORT || 4000, function () {
     console.log('Your node js server is running on ' + process.env.PORT);
 });
 app.use('/videos', express.static('mergedVideo'));

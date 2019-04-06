@@ -74,7 +74,7 @@ wss.on('connection', (ws: WebSocket) => {
 });
 
 //start our server
-server.listen(process.env.PORT || 8999, () => {
+server.listen(8999, () => {
     console.log(`Server started on port ${server.address().port} :)`);
 });
 
@@ -196,7 +196,7 @@ app.use('/assets', express.static('assets'));
 app.use('/css', express.static('css'));
 app.use('/uploadAudios', express.static('uploadAudios'));
 
-app.listen(4000, function () {
+app.listen(process.env.PORT || 4000, function () {
     console.log('Your node js server is running on ' + process.env.PORT);
 });
 
