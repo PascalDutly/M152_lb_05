@@ -1,10 +1,10 @@
 {
   "name": "lb-1",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +15,17 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs": "0.0.1-security",
     "gm": "^1.23.1",
-    "multer": "^1.4.1"
-  }
+    "multer": "^1.4.1",
+    "ws": "^6.2.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PascalDutlyCsBe/M152_lb_02.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PascalDutlyCsBe/M152_lb_02/issues"
+  },
+  "homepage": "https://github.com/PascalDutlyCsBe/M152_lb_02#readme",
+  "description": ""
 }

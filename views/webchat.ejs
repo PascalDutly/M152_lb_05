@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<label for="">Benutzer</label>
+<input type="text" id="username"> <br>
+<div class="form-group">
+    <label for="">Nachricht</label>
+    <textarea type="text" id="message"></textarea>
+    <button id="submit">Senden</button>
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/mode/xml/xml.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/froala-editor@2.9.3/js/froala_editor.pkgd.min.js"></script>
+
+<div class="received-messages">
+
+</div>
+<script> $(function() { $('textarea').froalaEditor() }); </script>
+</body>
+<script>
+    var exampleSocket = new WebSocket("ws://localhost:8999");
+    exampleSocket.onopen = function (event) {
+        exampleSocket.send("Server connection established");
+    };
+
+    document.querySelector("#submit").addEventListener('click', function () {
+        var usernameInput = document.querySelector("#username");
+        var input = document.querySelector("#message");
+        var message = [usernameInput.value, input.value];
+        exampleSocket.send(message);
+    });
+
+    exampleSocket.onmessage = function (event) {
+        console.log(event.data);
+        document.querySelector(".received-messages").innerHTML = document.querySelector(".received-messages").innerHTML + `<p>${event.data}</p>`;
+    }
+</script>
+</html>
