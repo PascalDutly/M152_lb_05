@@ -196,7 +196,7 @@ app.use('/assets', express.static('assets'));
 app.use('/css', express.static('css'));
 app.use('/uploadAudios', express.static('uploadAudios'));
 
-app.listen(process.env.PORT || 4000, function () {
+app.listen(4000, function () {
     console.log('Your node js server is running on ' + process.env.PORT);
 });
 
