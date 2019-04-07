@@ -58,7 +58,7 @@ wss.on('connection', (ws) => {
             ws.isAlive = false;
             ws.ping(null, false, true);
         });
-    }, 10000);
+    }, 15000);
 });
 //start our server
 server.listen(8999, () => {

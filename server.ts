@@ -54,7 +54,6 @@ wss.on('connection', (ws: WebSocket) => {
         ws.isAlive = true;
     });
 
-
     setInterval(() => {
         wss.clients.forEach((ws: ExtWebSocket) => {
 
@@ -69,7 +68,7 @@ wss.on('connection', (ws: WebSocket) => {
             ws.isAlive = false;
             ws.ping(null, false, true);
         });
-    }, 10000);
+    }, 15000);
 
 });
 
